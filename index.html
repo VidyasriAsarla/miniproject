@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie recommender system</title>
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/tex-gyre-adventor');
+        .one{
+            width: 101%;
+            min-height: 99vh;
+            background-color: #000;
+            background-image: url("img.gif");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            margin-top: -9px;
+            margin-left: -7.8px;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            
+            padding: 5px 5px;
+        }
+        nav ul li{
+            display: inline-block;
+            list-style: none;
+            margin-top: 10px;
+            margin-left: 250px;
+            color: white;
+            font-family: 'TeXGyreAdventor', sans-serif;
+                                                
+        }
+        h1{
+            align-items: center;
+            margin-left: 325px;
+            margin-top: 50px;
+            color: white;
+            font-family: 'TeXGyreAdventor', sans-serif;
+            font-size: 45px;
+                                                
+        }
+        .two{
+            margin-left: 500px;
+            margin-top: 30px;
+            padding: 50px;
+            color:white;
+            font-size: 30px;
+            font-family: 'TeXGyreAdventor', sans-serif;
+        }
+        .three{
+            padding: 5px 5px;
+            font-family: 'TeXGyreAdventor', sans-serif;
+            background-color: palevioletred;
+            outline-color: white;
+            color: white;
+            border:2px solid white;
+        }
+        .four{
+            padding: 5px 5px;
+            color:white;
+            outline-color: white;
+            font-family: 'TeXGyreAdventor', sans-serif;
+            background-color: palevioletred;
+            border:2px solid white;
+        }
+        .four:hover{
+            color: palevioletred;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <nav>
+            <ul><b>
+                <a href="https\\www.google.com"><li>HOME</li></a>
+                <li>YOUR PROFILE</li>
+                <li>ABOUT US</li>
+                <li>CONTACT US</li>
+                </b>
+            </ul>
+        </nav>
+        
+        <h1>WHAT MOVIE SHOULD I WATCH TONIGHT ?</h1>
+        <div class="two">
+            Enter movie name: <input type="text" class="three"  placeholder="Avatar">
+            <br>
+            <button class="four" ><b>Recommend</b></button>
+        </div>
+
+  
+    </div>
+</body>
+</html>
